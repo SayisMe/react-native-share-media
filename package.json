@@ -1,0 +1,53 @@
+{
+  "name": "react-native-share-media",
+  "version": "0.0.1",
+  "description": "React Native TurboModule for Share Media",
+  "main": "index.ts",
+  "types": "index.ts",
+  "files": [
+    "js",
+    "android",
+    "index.ts",
+    "README.md",
+    "!android/build",
+    "!android/.gradle"
+  ],
+  "keywords": [
+    "react-native",
+    "turbo-module",
+    "share",
+    "media",
+    "android"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SayisMe/react-native-share-media.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SayisMe/react-native-share-media/issues"
+  },
+  "homepage": "https://github.com/SayisMe/react-native-share-media#readme",
+  "author": "Sehui Jeong <zanne1218@naver.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.72.0",
+    "typescript": "^5.0.0"
+  },
+  "codegenConfig": {
+    "name": "ReactNativeShareMediaSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.reactnativesharemedia"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  }
+}
