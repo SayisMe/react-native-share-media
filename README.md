@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # React Native Share Media
 
 React Native TurboModule for sharing media files between apps.
@@ -60,4 +59,3 @@ interface ShareData {
 MIT
 =======
 # react-native-share-media
->>>>>>> b84a9416027b5442d6c84b755d9459d022e28105
